@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 20%;
+  }
+  .navbar-container {
+    opacity: 1;
+    pointer-events: all;
+    width:20%;
+  }
+  #menu-icon {
+    display: none;
+  }
+}
