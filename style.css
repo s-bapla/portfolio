@@ -11,6 +11,7 @@ html {
 }
 .container {
   position: relative;
+  height: 100%;
 }
 
 #menu-icon {
@@ -19,7 +20,7 @@ html {
   right: 0;
   /* display: none; */
   padding: 10px;
-  color: rgb(243, 10, 26);
+  color: #fff;
   font-size: 20px;
   cursor: pointer;
 }
@@ -39,7 +40,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 35%;
+  width: 50%;
   height: 100%;
   background-color: #333;
   display: flex;
@@ -53,7 +54,7 @@ html {
   position: fixed;
   top: 0;
   left: 0;
-  width: 35%;
+  width: 50%;
   height: 100%;
   background-color: #333;
   display: flex;
@@ -91,19 +92,26 @@ html {
   justify-content: center;
   align-items: center;
   color:antiquewhite;
-  height: 100vh;
-  background-image: url("./assets/uk-france-night-2016-EARTH1116-2c03d786e8824e13ad10758aa8bd832f.jpg")
+  height: 100%;
+
+  background-image: url("./assets/uk-france-night-2016-EARTH1116-2c03d786e8824e13ad10758aa8bd832f.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .main-content.active {
-    margin-left: 35%;
+    /* margin-left: 40%; */
     
 }
 
+.content {
+    width: 60%;
+}
 .icons {
     text-align: center;
 }
 
 #typed-text {
-  color: rgb(112, 237, 96);
+  color: rgb(8, 0, 255);
 }
