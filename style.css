@@ -171,13 +171,14 @@ html {
 
 div.skills {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+  justify-items: center;
 }
 
 div.skill {
-  margin: 10px 20px;
-  padding: 10px;
+  margin: 5px 10px;
+  padding: 5px;
 }
 
 .skills-heading::after {
@@ -191,4 +192,8 @@ div.skill {
 
 .skills-wrapper {
   background-color: antiquewhite;
+}
+
+.skills i {
+    margin-left: 10px;
 }
