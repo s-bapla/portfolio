@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  .main-content {
+  .home-wrapper {
     margin-left: 20%;
   }
   .navbar-container {
@@ -12,4 +12,8 @@
   #menu-icon {
     display: none;
   }
+  #about {
+    margin: 30px;
+    margin-left: calc(20% + 30px);
+}
 }
