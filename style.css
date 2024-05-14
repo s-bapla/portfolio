@@ -105,11 +105,11 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-
 }
 
-#home h1, #home p {
-    margin: 10px;
+#home h1,
+#home p {
+  margin: 10px;
 }
 
 #typed-text {
@@ -126,8 +126,6 @@ html {
 }
 
 #about {
-  padding: 10px;
-  margin: 20px 30px;
   display: flex;
   flex-direction: column;
 }
@@ -143,4 +141,54 @@ html {
 
 #about img {
   display: block;
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+#about p,
+#about h3,
+#about h2 {
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+#about p span {
+  color: #149ddd;
+}
+
+#about ul {
+  list-style: circle;
+}
+
+#about ul li {
+  padding: 10px;
+  margin: 10px;
+}
+
+#about ul li b {
+  margin-right: 5px;
+}
+
+div.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+div.skill {
+  margin: 10px 20px;
+  padding: 10px;
+}
+
+.skills-heading::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  margin-top: 10px;
+}
+
+.skills-wrapper {
+  background-color: antiquewhite;
 }
